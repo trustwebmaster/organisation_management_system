@@ -49,7 +49,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link" href="{{ route('configuration.index') }}" aria-expanded="false">
+                    <a class="sidebar-link" href="" aria-expanded="false">
                 <span>
                   <i class="ti ti-building"></i>
                 </span>
@@ -58,7 +58,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link" href="{{ route('configuration.templates') }}" aria-expanded="false">
+                    <a class="sidebar-link" href="" aria-expanded="false">
                 <span>
                   <i class="ti ti-building-bank"></i>
                 </span>
@@ -67,7 +67,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link" href="{{ route('templates.view') }}" aria-expanded="false">
+                    <a class="sidebar-link" href="" aria-expanded="false">
                 <span>
                   <i class="ti ti-building-bank"></i>
                 </span>
