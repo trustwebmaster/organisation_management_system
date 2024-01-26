@@ -29,4 +29,4 @@ Ensure you have the following prerequisites installed on your machine:
    Open .env and set up your database connection and other configuration parameters(database name and user).
 
 
-The Laravel project will be accessible at hosted doman name.
+The Laravel project will be accessible at hosted domain name.
