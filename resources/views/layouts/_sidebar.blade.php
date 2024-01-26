@@ -31,21 +31,30 @@
 
                 <li class="nav-small-cap border-bottom">
                     <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                    <span class="hide-menu text-muted">Organisation</span>
+                    <span class="hide-menu text-muted">Member Management</span>
                 </li>
 
                 <li class="sidebar-item mt-3">
-                    <a class="sidebar-link" href="" aria-expanded="false">
+                    <a class="sidebar-link" href="{{ route('memberManagement.register') }}" aria-expanded="false">
                 <span>
                   <i class="ti ti-plus"></i>
                 </span>
-                        <span class="hide-menu">View</span>
+                        <span class="hide-menu">Register</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item mt-3">
+                    <a class="sidebar-link" href="{{ route('memberManagement.members') }}" aria-expanded="false">
+                <span>
+                  <i class="ti ti-"></i>
+                </span>
+                        <span class="hide-menu">Members</span>
                     </a>
                 </li>
 
                 <li class="nav-small-cap border-bottom">
                     <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                    <span class="hide-menu text-muted">Configurations</span>
+                    <span class="hide-menu text-muted">Finance Tracking</span>
                 </li>
 
                 <li class="sidebar-item">
