@@ -22,7 +22,6 @@ class MemberController extends Controller
 
     public function storeMember(MemberStoreRequest $request){
         try{
-
             Member::create($request->validated());
             return redirect()->route('memberManagement.members')->with(['success' => "Successfully created a new Member"]);
 

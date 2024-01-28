@@ -46,7 +46,7 @@
                 <li class="sidebar-item mt-3">
                     <a class="sidebar-link" href="{{ route('memberManagement.members') }}" aria-expanded="false">
                 <span>
-                  <i class="ti ti-"></i>
+                  <i class="ti ti-user"></i>
                 </span>
                         <span class="hide-menu">Members</span>
                     </a>

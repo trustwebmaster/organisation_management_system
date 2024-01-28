@@ -11,7 +11,7 @@ class MemberStoreRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,24 @@ class MemberStoreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'email' => 'required',
+            'address' => 'required',
+            'phone_number' => 'required',
+            'national_id' => 'required',
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'first_name' => "First Name is required",
+            'last_name' => "Last Name is required",
+            'email' => "Email is required",
+            'address' => "Address is required",
+            'phone_number' => "Phone Number is required",
+            'national_id' => "National Id is required"
         ];
     }
 }
